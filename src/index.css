@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .bg-color {
+    background-color: #161513;
+  }
+  .bg-nav {
+    background-color: #222222;
+  }
+}
+
+.container {
+  max-width: 1200px; /* Atur lebar maksimum sesuai kebutuhan */
+  margin-left: auto;
+  margin-right: auto;
+}
